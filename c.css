@@ -1,0 +1,144 @@
+
+.register .forgetlink{
+    padding-top:1% ;
+    padding-bottom:2% ;
+margin-left: 2%;
+}
+.register .cardd{
+    margin-top: 1%;
+
+}
+.register body{
+    background-color: whitesmoke;
+}
+.register{
+display: block;
+}
+
+
+
+
+
+
+
+/* ------------ */
+.displaynone{
+    display: none !important;
+}
+.displayblock{
+    display: block !important;
+}
+
+
+
+
+
+.pageenterquiz .cardtoCourse{
+
+    margin-left: 0.3%;
+}
+.pageenterquiz .linktocontact{
+    padding:1% ;
+}
+.pageenterquiz{
+    display: none;
+}
+.pageenterquiz .tohi{
+    margin-top: 0.2%;
+    height: 20%;
+ 
+padding-bottom: 1%;
+padding-top: 1%;
+}
+
+
+
+#question
+{
+    display: none;
+}
+
+.srcc #qustion2,.srcc #qustion3,.srcc #qustion4,.srcc #qustion5,.srcc #qustion6{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.srcc body {
+  font-family: 'Poppins', sans-serif;
+  background: #b9b3a9;
+  display: flex;
+  justify-content: center;
+}
+
+.srcc .container {
+  width: 450px;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.srcc h1 {
+  text-align: center;
+}
+
+.srcc .question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.srcc .options {
+  margin-bottom: 20px;
+}
+
+.srcc .option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.srcc .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.srcc .button:hover {
+  background-color: #3071a9;
+}
+
+.srcc .result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.srcc .hide{
+  display: none;
+}
